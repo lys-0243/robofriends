@@ -1,0 +1,61 @@
+.app_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot-title img {
+  width: 27vw;
+}
+
+.robot-card {
+  background-color: #9eebcf;
+  width: 20vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-bottom: 2%;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.robot-card img {
+  width: 20vw;
+}
+
+.robot-card h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.robot-card p {
+  margin-top: 0px;
+}
+
+.robots_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 30px;
+}
+
+.input_search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot-card:hover {
+  background-color: #ffa126;
+  width: 22vw;
+  height: 59vh;
+  
+}
