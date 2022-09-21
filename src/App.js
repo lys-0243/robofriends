@@ -1,16 +1,18 @@
-import Robots from "./components/Robots";
-import Title from "./components/Title";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Robot from "./components/RobotDetails";
 import "./styles/App.css";
 
 function App() {
   return (
-    <div className="wrapper">
-      <div className="app_head">
-        <Title />
-      </div>
-
-      <Robots />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/robot/" element={<Robot/>} >
+          <Route path=":idRobot" element={<Robot />} />
+          </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

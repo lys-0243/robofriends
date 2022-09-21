@@ -19,7 +19,8 @@
   justify-content: center;
   border-radius: 3px;
   margin-bottom: 2%;
-  transition: width 1s, height 1s, background-color 1s, transform 1s;
+  text-align: center;
+  transition: width 1s, height 1s, color 2s, background-color 1s, transform 1s;
 }
 
 .robot-card img {
@@ -44,6 +45,7 @@
   justify-content: center;
   
   margin-top: 30px;
+  
 }
 
 .input_search {
@@ -57,5 +59,48 @@
   background-color: #ffa126;
   width: 22vw;
   height: 59vh;
+  color: white;
   
 }
+
+.robotLinkToDetails {
+  text-decoration: none;
+  color: #000;
+}
+
+.robot_container__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.info-details {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -30px;
+  color: white;
+}
+
+.info-details p {
+margin: 0;
+}
+
+.backToHomePage {
+  color: #003769;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa126;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
